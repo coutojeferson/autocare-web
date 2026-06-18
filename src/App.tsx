@@ -6,17 +6,13 @@ import VehicleTypeSelector from './components/VehicleTypeSelector';
 
 function App() {
   const [vehicleType, setVehicleType] = useState('');
-  function handleClick() {
-    console.log('teste');
-  }
-
-  console.log(vehicleType);
 
   return (
     <div>
-      <AddVehicleButton onClick={handleClick} />
+      <h1>AutoCare</h1>
+      <AddVehicleButton onClick={() => {}} />
       <VehicleCard currentKm={1000} name="Honda titan" />
-      <VehicleTypeSelector onChange={setVehicleType} />
+      <VehicleTypeSelector onChange={setVehicleType} value={vehicleType} />
     </div>
   );
 }
