@@ -16,6 +16,7 @@ Versão web do AutoCare — aplicativo de controle de manutenção veicular.
 - `VehicleList` — lista de veículos com mensagem de estado vazio
 - `SearchInput` — input de busca controlado
 - `Counter` — contador com regra de não ir abaixo de zero
+- `TodoList` — lista de tarefas baseadas nas manutenções a serem realizadas, com mensagem de estado vazio
 
 ## 🧪 Testes
 O projeto é desenvolvido com TDD — testes escritos antes da implementação.
